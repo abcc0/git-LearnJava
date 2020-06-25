@@ -2,7 +2,7 @@ package com.abcc.maven.jrnd;
 
 //import com.abcc.maven.jrnd.JavaRandD;
 
-public class RNDMain {
+public class JavaRNDMain {
 
 	public static void main(String[] args) {
 		
@@ -10,9 +10,11 @@ public class RNDMain {
 		Fruits Apple;
 		Apple = new Fruits();
 		
-		Apple.sColor = "Green";
-		Apple.bSweet = true;
-		Apple.iWeight = 100;
+		Apple.species = "Fugi";
+		Apple.colour = "Green";
+		Apple.origin = "Australia";
+		Apple.quantity = 100;
+		Apple.unitprice = 1.5;
 		
 		Apple.showCharacteristics();
 		
